@@ -1,0 +1,52 @@
+
+img {
+  width: 100%;
+  padding-top: 30px;
+}
+h1{
+  color: white;
+}
+
+h2{
+  color: white;
+}
+h5{
+  color: white;
+}
+#menu {
+}
+
+#menu ul {
+	margin: 0;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	display: block;
+	width: 160px;
+	padding: 10px 20px;
+	border-top: 1px solid #000000;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000000;
+}
+
+#menu a:hover {
+	background: #EAEB97;
+}
+
+#menu .first a {
+	border: none;
+}
+
+#menu .active a {
+	background: #BC2121;
+	color: #FFFFFF;
+}
